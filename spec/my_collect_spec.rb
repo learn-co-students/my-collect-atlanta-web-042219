@@ -47,4 +47,4 @@ describe "my_collect" do
       student.split(" ").first
     end
     expect(students).to eq(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'])
-  end
+  
