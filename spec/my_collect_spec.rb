@@ -48,4 +48,3 @@ describe "my_collect" do
     end
     expect(students).to eq(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'])
   end
-end
