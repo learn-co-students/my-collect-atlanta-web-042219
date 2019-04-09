@@ -7,7 +7,7 @@ def my_collect(arr)
   #binding.pry
   
   while i < arr.length
-    arr1 << yield arr[i]
+   yield arr[i]
     i += 1
   end
   arr1
