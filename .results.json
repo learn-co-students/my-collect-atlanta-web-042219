@@ -1,0 +1,1 @@
+{"examples":[{"description":"can handle an empty collection","full_description":"my_collect can handle an empty collection","status":"passed","file_path":"./spec/my_collect_spec.rb","line_number":5,"run_time":48.551929316}],"summary":{"duration":48.552486657,"example_count":1,"failure_count":0,"pending_count":0},"summary_line":"1 example, 0 failures"}
