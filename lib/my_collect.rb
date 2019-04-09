@@ -2,7 +2,7 @@ require 'pry'
 
 def my_collect(arr)
   i = 0
-  # arr1 = []
+  arr1 = []
   
   #binding.pry
   
@@ -10,5 +10,5 @@ def my_collect(arr)
     yield arr[i]
     i += 1
   end
-  arr
+  arr1
 end
