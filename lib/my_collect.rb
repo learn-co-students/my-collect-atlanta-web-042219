@@ -4,7 +4,7 @@ def my_collect(arr)
   i = 0
   # arr1 = []
   
-  binding.pry
+  #binding.pry
   
   while i < arr.length
     yield arr[i]
