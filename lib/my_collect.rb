@@ -1,16 +1,24 @@
+# def my_collect(array)
+#     i = 0
+#     new_array = []
+#     while i < array.length
+#       yield array[i]
+#       item = array[i].split(" ").first
+#       new_array.push(item)
+#       i +=1
+#     end
+#     new_array
+# end
+
 def my_collect(array)
-    i = 0
-    new_array = []
-    while i < array.length
-      yield array[i]
-      item = array[i].split(" ").first
-      new_array.push(item)
-      i +=1
-    end
-    new_array
+  i = 0
+  collect = []
+  while i < array.length
+    collect << yield(array[i])
+    i+=1
+  end
+  collect
 end
-
-
 
 #
 # def my_array(array)
